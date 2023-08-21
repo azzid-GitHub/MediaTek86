@@ -53,6 +53,18 @@
     <Compile Include="view\absence.Designer.cs">
       <DependentUpon>absence.cs</DependentUpon>
     </Compile>
+    <Compile Include="view\AjoutAbsence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\AjoutAbsence.Designer.cs">
+      <DependentUpon>AjoutAbsence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\AjoutPersonnel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view\AjoutPersonnel.Designer.cs">
+      <DependentUpon>AjoutPersonnel.cs</DependentUpon>
+    </Compile>
     <Compile Include="view\connexion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +84,12 @@
     </Compile>
     <EmbeddedResource Include="view\absence.resx">
       <DependentUpon>absence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\AjoutAbsence.resx">
+      <DependentUpon>AjoutAbsence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\AjoutPersonnel.resx">
+      <DependentUpon>AjoutPersonnel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="view\connexion.resx">
       <DependentUpon>connexion.cs</DependentUpon>
