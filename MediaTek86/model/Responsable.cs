@@ -8,5 +8,7 @@ namespace MediaTek86.model
 {
     class Responsable
     {
+        public string login { get; set; }
+        public string pwd { get; set; }
     }
 }

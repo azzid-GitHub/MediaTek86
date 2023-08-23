@@ -16,5 +16,16 @@ namespace MediaTek86.view
         {
             InitializeComponent();
         }
+
+        private void absence_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'mediatek86DataSet2.service' table. You can move, or remove it, as needed.
+            this.serviceTableAdapter.Fill(this.mediatek86DataSet2.service);
+            // TODO: This line of code loads data into the 'mediatek86DataSet1.personnel' table. You can move, or remove it, as needed.
+            this.personnelTableAdapter.Fill(this.mediatek86DataSet1.personnel);
+            // TODO: This line of code loads data into the 'mediatek86DataSet.absence' table. You can move, or remove it, as needed.
+            this.absenceTableAdapter.Fill(this.mediatek86DataSet.absence);
+
+        }
     }
 }

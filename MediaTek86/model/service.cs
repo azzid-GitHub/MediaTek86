@@ -8,5 +8,6 @@ namespace MediaTek86.model
 {
     class Service
     {
+        public string nom {get; set;}
     }
 }

@@ -8,5 +8,6 @@ namespace MediaTek86.model
 {
     class Motif
     {
+        public string libelle { get; set; }
     }
 }
